@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Run hyposcript files (almost) natively.",
   "main": "index.js",
+  "bin": {
+    "hypodrive": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sure-thing/hypodrive.git"
@@ -16,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-react": "^7.10.4",
-    "@babel/register": "^7.11.5"
+    "@babel/register": "^7.11.5",
+    "hyposcript": "^0.3.0"
   }
 }
