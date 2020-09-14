@@ -1,6 +1,6 @@
 {
   "name": "hypodrive",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Run hyposcript files (almost) natively.",
   "main": "index.js",
   "bin": {
