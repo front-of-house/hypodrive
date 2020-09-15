@@ -1,4 +1,4 @@
-require(require.resolve('hyposcript'))
+require.cache['hyposcript'] = require(require.resolve('hyposcript'))
 require(require.resolve('@babel/register'))({
   presets: [
     [require.resolve('@babel/preset-react'), {
