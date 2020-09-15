@@ -1,7 +1,6 @@
-require.cache['hyposcript'] = require(require.resolve('hyposcript'))
-require(require.resolve('@babel/register'))({
+require('@babel/register')({
   presets: [
-    [require.resolve('@babel/preset-react'), {
+    ['@babel/preset-react', {
       pragma: 'h',
       pragmaFrag: 'h',
     }]
